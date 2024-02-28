@@ -1,6 +1,6 @@
 
 
-p align="center">
+<p align="center">
   <img src="[https://github.com/oframe/ogl/raw/master/examples/assets/ogl.png](https://github.com/like820/waterlike.world/blob/main/waterLikeLogo.png)" alt="waterlike™️" width="510" />
 </p>
 
