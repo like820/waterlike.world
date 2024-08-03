@@ -10,13 +10,14 @@ canvas {
     width: 100%;
     height: 100%;
     z-index: -10;
-    opacity: 0.3;
+    /* opacity: 0.8; */
     filter: blur(8px);
+    letter-spacing: 0.082em;
 }
 .info{
     /* margin: 3em; */
-    font-size: 3em;
-    color: blue;
+    font-size: 2em;
+    color: ghostwhite;
     font-family: monospace;
     font-weight: bold;
     display: flex;
@@ -24,4 +25,5 @@ canvas {
     align-items: center;
     height: 100vh;
     /* border: 10px solid blue; */
+    text-shadow: 4px 3px 4px #000082
 }

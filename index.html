@@ -11,10 +11,21 @@
         <link rel="icon" type="image/png" href="assets/favicon.png" />
 
         <title>waterlike™</title>
-        <link href="assets/main.css" rel="stylesheet" />
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
     </head>
-    <body>
+<script>    
+    function coordinate(event) {
+                let x = event.pageX/200;
+                let y = event.pageY/200;
+            //move shadow of
+            document.querySelector('.info').style.textShadow = x+ "px "+ y + "px 8px #000082";
+            
+            }
+
+</script>
+    <body onmousemove="coordinate(event)">
         <div class="info">
            waterlike™
         </div>
