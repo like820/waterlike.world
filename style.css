@@ -11,6 +11,7 @@ canvas {
     height: 100%;
     z-index: -10;
     opacity: 0.3;
+    filter: blur(8px);
 }
 .info{
     /* margin: 3em; */
