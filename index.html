@@ -17,10 +17,10 @@
     </head>
 <script>    
     function coordinate(event) {
-                let x = event.pageX/200;
-                let y = event.pageY/200;
+                let x = event.pageX/(window.innerWidth/10);
+                let y = event.pageY/(window.innerHeight/10);
             //move shadow of
-            document.querySelector('.info').style.textShadow = x+ "px "+ y + "px 8px #000082";
+            document.querySelector('.info').style.textShadow = x+ "px "+ y + "px "+ (x+3) +"px #000082";
             
             }
 
